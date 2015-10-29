@@ -1,9 +1,10 @@
 html  {
 	font-family: 'Roboto', sans-serif;
-	background-image: url("https://s3.amazonaws.com/makeitreal/cars/jaguar-xe.jpg");
-	background-repeat:no-repeat;
-	background-size: cover;
-	background-position: center top;
+	background: url("https://s3.amazonaws.com/makeitreal/cars/jaguar-xe.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .card {
