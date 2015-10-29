@@ -1,0 +1,47 @@
+html  {
+	font-family: 'Roboto', sans-serif;
+	background-image: url("https://s3.amazonaws.com/makeitreal/cars/jaguar-xe.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+.card {
+	margin-right: 10px;
+	padding: 20px 20px 10px 20px;
+	color: rgba(255,255,255,1);
+	background-color: black;
+	opacity: 0.8;
+	border-radius: 10px;
+	text-align: justify;
+}
+
+.button{
+	border:solid 1px #DB3030; 
+	background-color: #DB3030;
+	border-radius:3px;
+	text-align:center;
+	padding:5px; 
+	color:#333; 
+	width:150px; 
+}
+
+.button a{
+	text-decoration:none;  
+	color: white;
+}
+
+@media (min-width: 800px){
+	.card {
+		margin-top: 100px;
+		margin-left: 100px;
+		width: 500px;
+		padding: 5px 20px 20px 20px;
+		color: rgba(255,255,255,1);
+		background-color: black;
+		opacity: 0.8;
+		border-radius: 10px;
+		text-align: justify;
+	}
+}
+
